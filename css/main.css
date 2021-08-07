@@ -46,63 +46,204 @@ svg { width: 100%; }
 
 /* #you, #wanna, #play, #rough, #ok, #say, #hello, #to, #my, #little, #friend { animation: fadewords 0.2s forwards; } */
 
-.text-anim { animation: fadewords 0.2s forwards; }
-.container-turn { animation: turncontainer 0.2s linear 0.5s forwards, turnagain 0.3s linear 1s forwards, resetcontainer 1s linear 4s forwards; }
-.zoom-tony { animation: zoomtony 2.5s forwards; }
+.text-anim { animation: fadewords 0.9s forwards; }
+.container-turn {
+  animation: cooling 0.5s linear 13.52s forwards, baby 0.2s linear 15.04s forwards, fooling 0.2s linear 16s forwards, imGonna 0.2s linear 18.28s forwards, send 0.2s linear 18.78s forwards, resetcontainer 0.2s linear 20s forwards,
+  backTo 0.2s linear 21s forwards, schooling 0.5s linear 21.79s forwards, resetcontainer 1.21s linear 24s forwards, awayDownInside 0.2s linear 24.2s forwards,
+  inside 0.2s linear 25.49s forwards, resetcontainer 0.2s linear 27s forwards, aHoney 0.2s linear 28s forwards, need 0.1s linear 28.3s forwards, it 0.2s linear 28.7s forwards,
+  im3 0.2s linear 30.1s forwards, love 0.5s linear 31.1s forwards, im3 0.2s linear 32.1s forwards, love 1.2s linear 33.1s forwards,
+  resetcontainer 2s linear 34s forwards, wanna 0.1s linear 37s forwards, whole 0.1s linear 37.3s forwards, lotta 0.1s linear 37.6s forwards,
+  love2 0.1s linear 37.8s forwards, loveOut 0.5s linear 39s forwards, wanna 0.1s linear 40s forwards, whole 0.2s linear 40.3s forwards,
+  lotta 0.2s linear 40.7s forwards, love2 0.2s linear 41.1s forwards, resetcontainer 2s linear 41.6s forwards, fadeout 2s linear 41.8s forwards;
+  /* turnagain 0.3s linear 1s forwards;  */
 
-#wanna { animation-delay: 0.25s; }
-#play { animation-delay: 0.3s; }
-#rough { animation-delay: 0.5s; }
-#top { animation-delay: 0.5s; }
+ }
 
-#ok { animation-delay: 1.5s; }
-#say { animation-delay: 2.7s;}
-#hello { animation-delay: 3s; }
-#to, #my { animation-delay: 3.6s; }
-#little { animation-delay: 4s; }
-#friend { animation-delay: 4.2s; }
 
-/* #layout {
+
+#you { animation-delay: 12.40s; }
+#need { animation-delay: 12.66s; }
+#cooling { animation-delay: 13.22s; }
+#baby { animation-delay: 15.04s; }
+#im { animation-delay: 15.38s; }
+#not { animation-delay: 15.68s; }
+#fooling { animation-delay: 16.28s; }
+#im2 { animation-delay: 17.88s; }
+#gonna { animation-delay: 18.28s; }
+#send { animation-delay: 18.78s; }
+#ya { animation-delay: 19.49s; }
+#back { animation-delay: 20.59s; }
+#to { animation-delay: 20.99s; }
+#schooling { animation-delay: 21.49s; }
+#a { animation-delay: 24.39s; }
+#way { animation-delay: 24.54s; }
+#down { animation-delay: 25.09s; }
+#inside { animation-delay: 25.49s; }
+#a2 { animation-delay: 26.89s; }
+#honey { animation-delay: 27.05s; }
+#you2 { animation-delay: 27.30s; }
+#need2 { animation-delay: 27.79s; }
+#it { animation-delay: 28.39s; }
+#im3 { animation-delay: 29.39s; }
+#gonna2 { animation-delay: 29.69s; }
+#give { animation-delay: 30.39s; }
+#you3 { animation-delay: 30.69s; }
+#my { animation-delay: 31.02s; }
+#love { animation-delay: 30.32s; }
+#wanna { animation-delay: 36.6s; }
+#whole { animation-delay: 37s; }
+#lotta { animation-delay: 37s; }
+#love2 { animation-delay: 37s; }
+
+
+/* #to, #my { animation-delay: 3.6s; } */
+
+
+/*#layout {
   animation: turncontainer 0.2s linear 1s forwards, turnagain 0.3s linear 1.5s forwards;
   /* animation-delay: 1s;
 } */
 
-.tony-vector {
-  position: absolute;
-  top: 139px;
-  left: 255px;
-  height: 300px;
 
-  opacity: 0;
-
+.zoomlz1 { animation: zoomlz1 12s linear 3.3s, fadeout 2s forwards 10s;}
+.lzendturn { animation: fadewords 6s forwards 43s, ending 9s forwards 40s; }
+  /* fadeout 2s forwards 17s; } */
+/* .zoomlz1 {
   animation-delay: 2s;
+} */
+
+.lz1 {
+  position: absolute;
+  top: 149px;
+  left: 240px;
+  height: 300px;
+  opacity: 0;
+  margin: 0 auto;
 }
+
+.lzend {
+  position: absolute;
+  top: 1px;
+  left: 180px;
+  height: 600px;
+  opacity: 0;
+  margin: 0 auto;
+}
+
+
+
+
+
 
 @keyframes fadewords {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-@keyframes zoomtony {
-  0% { opacity: 0; }
-
-  10% { opacity: 1; }
-  80% { transform: scale(1.8); opacity: 1; top: 139px; left: 255px; }
-  100% {  opacity: 1; top: 152px; left: 266px; transform: scale(1);}
+@keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
-@keyframes turncontainer {
+
+
+@keyframes zoomlz1 {
+  0% { opacity: 0; }
+
+  30% { opacity: 1; }
+  100% { transform: scale(3); opacity: 1;}
+}
+
+@keyframes fooling {
   100% {
-    transform: rotate(-90deg) scale(1.5) translate(31%, -3%);
+    transform: rotate(-90deg) scale(2.4) translate(-29%, 23%);
   }
 }
 
 @keyframes turnagain {
   0% { transform: rotate(-90deg) scale(1.5) translate(31%, -3%); }
-  100% { transform: rotate(0deg) scale(1.2) translate(-16%, 11%); }
+  100% { transform: rotate(0deg) scale(1.2) translate(46%, 11%); }
 }
 
 @keyframes resetcontainer {
-  0% { transform: rotate(0deg) scale(1.4) translate(-13%, 11%); }
+
   100% { transform: scale(1) translate(0, 0); }
+}
+
+@keyframes backTo {
+  0% { transform: rotate(0deg) scale(1.4) translate(-13%, 11%); }
+  100% { transform: scale(3) translate(-13%, 11%); }
+}
+
+@keyframes awayDownInside {
+  100% { transform: scale(4.6) translate(36%, -13%); }
+}
+
+@keyframes aHoney {
+  100% { transform: scale(3.6) translate(9%, 36%); }
+}
+
+@keyframes need {
+  100% { transform: rotate(-54deg) scale(3.6) translate(9%, 36%); }
+}
+
+@keyframes it {
+  100% { transform: rotate(0deg) scale(3.6) translate(9%, 29%); }
+}
+
+@keyframes im3 {
+  100% { transform: rotate(-360deg) scale(3.6) translate(10%, -19%); }
+}
+
+@keyframes love {
+  100% { transform: rotate(-360deg) scale(5.8) translate(10%, -19%); }
+}
+
+@keyframes wanna {
+  100% { transform: scale(3.2) translate(34%, -38%); }
+}
+
+@keyframes whole {
+  100% { transform: scale(3.7) translate(3%, -38%); }
+}
+
+@keyframes lotta {
+  100% { transform: scale(4.9) translate(-24%, -40%); }
+}
+
+@keyframes love2 {
+  100% { transform: scale(2.5) translate(-24%, -20%); }
+}
+
+@keyframes loveOut {
+  100% { transform: scale(1) translate(-0%, -0%); }
+}
+
+@keyframes cooling {
+  100% { transform: rotate(-54deg) scale(2.2) translate(25%, 20%); }
+}
+
+@keyframes baby {
+  100% { transform: rotate(90deg) scale(3.2) translate(-18%, 30%); }
+}
+
+@keyframes schooling {
+  100% { transform: rotate(-18deg) scale(2) translate(-13%, 11%); }
+}
+
+@keyframes inside {
+  100% { transform: rotate(-38deg) scale(4.6) translate(35%, -13%); }
+}
+
+@keyframes imGonna {
+  100% { transform: rotate(0deg) scale(4) translate(30%, 5%); }
+}
+
+@keyframes send {
+  100% { transform: rotate(-90deg) scale(6) translate(15.5%, 3%); }
+}
+
+@keyframes ending {
+  0% { transform: rotate(-90deg) scale(1.5); }
+  100% { transform: rotate(0deg) scale(1); }
 }
