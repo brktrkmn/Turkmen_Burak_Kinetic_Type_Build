@@ -48,11 +48,11 @@ svg { width: 100%; }
 
 .text-anim { animation: fadewords 0.9s forwards; }
 .container-turn {
-  animation: cooling 0.5s linear 13.52s forwards, baby 0.2s linear 15.04s forwards, fooling 0.2s linear 16s forwards, imGonna 0.2s linear 18.28s forwards, send 0.2s linear 18.78s forwards, resetcontainer 0.2s linear 20s forwards,
-  backTo 0.2s linear 21s forwards, schooling 0.5s linear 21.79s forwards, resetcontainer 1.21s linear 24s forwards, awayDownInside 0.2s linear 24.2s forwards,
+  animation: cooling 0.5s linear 13.52s forwards, baby 0.2s linear 15.04s forwards, fooling 0.2s linear 16s forwards, imGonna 0.2s linear 17.58s forwards, send 0.2s linear 18.48s forwards, resetcontainer 0.2s linear 20s forwards,
+  backTo 0.2s linear 21s forwards, schooling 0.5s linear 21.79s forwards, resetcontainer 1.21s linear 24s forwards, awayDownInside 0.2s linear 24s forwards,
   inside 0.2s linear 25.49s forwards, resetcontainer 0.2s linear 27s forwards, aHoney 0.2s linear 28s forwards, need 0.1s linear 28.3s forwards, it 0.2s linear 28.7s forwards,
   im3 0.2s linear 30.1s forwards, love 0.5s linear 31.1s forwards, im3 0.2s linear 32.1s forwards, love 1.2s linear 33.1s forwards,
-  resetcontainer 2s linear 34s forwards, wanna 0.1s linear 37s forwards, whole 0.1s linear 37.3s forwards, lotta 0.1s linear 37.6s forwards,
+  resetcontainer 2.5s linear 34s forwards, wanna 0.1s linear 37s forwards, whole 0.1s linear 37.3s forwards, lotta 0.1s linear 37.6s forwards,
   love2 0.1s linear 37.8s forwards, loveOut 0.5s linear 39s forwards, wanna 0.1s linear 40s forwards, whole 0.2s linear 40.3s forwards,
   lotta 0.2s linear 40.7s forwards, love2 0.2s linear 41.1s forwards, resetcontainer 2s linear 41.6s forwards, fadeout 2s linear 41.8s forwards;
   /* turnagain 0.3s linear 1s forwards;  */
@@ -90,10 +90,10 @@ svg { width: 100%; }
 #you3 { animation-delay: 30.69s; }
 #my { animation-delay: 31.02s; }
 #love { animation-delay: 30.32s; }
-#wanna { animation-delay: 36.6s; }
-#whole { animation-delay: 37s; }
-#lotta { animation-delay: 37s; }
-#love2 { animation-delay: 37s; }
+#wanna { animation-delay: 37s; }
+#whole { animation-delay: 37.3s; }
+#lotta { animation-delay: 37.6s; }
+#love2 { animation-delay: 37.8s; }
 
 
 /* #to, #my { animation-delay: 3.6s; } */
@@ -224,7 +224,7 @@ svg { width: 100%; }
 }
 
 @keyframes baby {
-  100% { transform: rotate(90deg) scale(3.2) translate(-18%, 30%); }
+  100% { transform: rotate(90deg) scale(2) translate(-18%, 30%); }
 }
 
 @keyframes schooling {
@@ -236,7 +236,7 @@ svg { width: 100%; }
 }
 
 @keyframes imGonna {
-  100% { transform: rotate(0deg) scale(4) translate(30%, 5%); }
+  100% { transform: rotate(0deg) scale(1) translate(30%, 5%); }
 }
 
 @keyframes send {
